@@ -18,9 +18,9 @@
 package org.lineageos.settings.touchsampling;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class TouchSamplingSettingsActivity extends MonetPreferenceActivity {
+public class TouchSamplingSettingsActivity extends PreferenceActivity {
 
     private static final String TAG_HTSR = "touchsampling";
 

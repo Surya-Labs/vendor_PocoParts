@@ -17,9 +17,9 @@
 package org.lineageos.settings.haptic;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class HapticLevelActivity extends MonetPreferenceActivity {
+public class HapticLevelActivity extends PreferenceActivity {
 
     private final String TAG_HAPTIC = "haptic_level";
 

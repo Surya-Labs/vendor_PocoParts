@@ -17,9 +17,9 @@
 package org.lineageos.settings;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class MainSettingsActivity extends MonetPreferenceActivity {
+public class MainSettingsActivity extends PreferenceActivity {
 
    @Override
     protected void onCreate(Bundle savedInstanceState) {

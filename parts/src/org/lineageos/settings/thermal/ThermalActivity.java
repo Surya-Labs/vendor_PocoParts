@@ -17,9 +17,9 @@
 package org.lineageos.settings.thermal;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class ThermalActivity extends MonetPreferenceActivity {
+public class ThermalActivity extends PreferenceActivity {
 
     private static final String TAG_THERMAL = "thermal";
 

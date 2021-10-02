@@ -17,9 +17,9 @@
 package org.lineageos.settings.display;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class LcdFeaturesPreferenceActivity extends MonetPreferenceActivity {
+public class LcdFeaturesPreferenceActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
