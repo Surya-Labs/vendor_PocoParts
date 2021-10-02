@@ -17,7 +17,6 @@
 
      <PreferenceCategory
         android:key="display"
-        android:layout="@layout/dot_preference_category"
         android:title="@string/display_title">
 
         <Preference
